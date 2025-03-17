@@ -1,0 +1,33 @@
+body {
+    overflow: hidden;
+}
+
+#enemyHPText,
+#canvas,
+#tetriMino,
+#nextBox,
+#nextBox2,
+#nextMino,
+#holdBox,
+#holdMino {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#enemyPicture {
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    width: 1000px;
+    height: 1000px;
+}
+
+#mikataPicture {
+    position: absolute;
+    top: 0%;
+    left: -10%;
+    width: 1000px;
+    height: 1000px;
+}
