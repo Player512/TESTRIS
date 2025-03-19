@@ -1,0 +1,26 @@
+#storyBackground {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+}
+
+#text {
+    color: white;
+    position: relative;
+    font-weight: bold;
+}
+
+#textWindow {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 8px solid;
+    border-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}

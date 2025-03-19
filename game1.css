@@ -1,0 +1,36 @@
+body {
+    overflow: hidden;
+}
+
+#enemyHPText,
+#canvas,
+#tetriMino,
+#nextBox,
+#nextBox2,
+#nextMino,
+#holdBox,
+#holdMino,
+#gameOverLine,
+#gameResult {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+#enemyStandPicture,
+#allyStandPicture {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#gameResult {
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;
+
+    z-index: 4;
+}
